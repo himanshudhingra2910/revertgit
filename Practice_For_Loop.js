@@ -11,10 +11,18 @@
 // }
 // // console.log(thisIsAnArray);
 
-var sumArray = [2,5,77,99,44,33,55,67,88,88]
-var sum=0;
-for(i=0; i<sumArray.length; i++){
-    console.log(sumArray[i]);
-    sum = sum + sumArray[i];
+// var sumArray = [2,5,77,99,44,33,55,67,88,88]
+// var sum=0;
+// for(i=0; i<sumArray.length; i++){
+//     console.log(sumArray[i]);
+//     sum = sum + sumArray[i];
+// }
+// console.log("The sum of all the element is: " + sum);
+even = []
+input_array=[1,2,44,66,3,45,32,332,789]
+for(let x of input_array){
+    if(x%2==0){
+        even.push(x);
+    }
 }
-console.log("The sum of all the element is: " + sum);
+console.log(even);

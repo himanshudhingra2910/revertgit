@@ -412,8 +412,45 @@
 // }
 // console.log(prof());
 
-// for(let i=7;i<=31;i+2){
-//     // if(i%==0){
-//         console.log(i);
-//     // }
+// // MAP keyword
+
+// let input_array = [22,33,44,55]
+// input_array.map((item,index )=> console.log(index +" "+ item * 3))
+
+// ForEach Keyword
+
+// let input_array = [22,33,44,55]
+// console.log(input_array.forEach((item )=> item * 6))
+
+// Filter Keyword
+
+// let input_array = [22,33,44,55]
+// console.log(input_array.filter((item )=> item%2==0))
+
+// Reduce keyword 
+
+// let input_array = [17,65,151,2,45,677,45,223,544]
+// console.log(input_array.reduceRight((acc,item)=> acc/item,1))
+
+// console.log(this);
+
+// let input_array=[1,3,4,5,6]
+// console.log(input_array.reduce((acc,value) => (acc - value)))
+
+// let input_array=["Hima","dhing","123"]
+// console.log(input_array.indexOf("dhing"))
+
+// let grades = [1,2,3,4,5,6]
+// function checkFunction(para){
+//     if(grades.indexOf(para) >=  0){
+//         return true;
+//     }
+//     else{
+//         return false
+//     }
+    
 // }
+// console.log(checkFunction(3));
+
+// let grades = [1,2,0]
+console.log(null == null);
