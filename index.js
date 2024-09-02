@@ -453,4 +453,89 @@
 // console.log(checkFunction(3));
 
 // let grades = [1,2,0]
-console.log(null == null);
+// console.log(null == null);
+
+// let objPerson =  {
+//    name: { firstName: "Himanshu",
+//     lastName: "Dhingra",
+//     getFullname: function(){
+//         return this.firstName + " "+ this.lastName
+//     }
+//    },
+//     age: "21",
+//     address: {
+//         currentAddress: "Bangalore",
+//         permanentAddress: "Chandigarh",
+// },
+// marks: {
+//     englishMarks: 100,
+//     mathsMarks: 100
+// }
+// }
+// // console.log(objPerson.name.getFullname().lastName);
+
+// for(x in objPerson){
+//     console.log(objPerson[x]);
+// }
+
+// var enterData = prompt("Enter First Name: ")
+// var enterData2 = prompt("Enter Last Name: ")
+
+// let objAmazon = 
+
+//     {
+//         name: {
+            
+//             firstName: {enterData},
+//             lastName: {enterData2},
+//             callName: function(firstName,lastName){
+//                 return `${firstName}` + " " + `${lastName}`
+//             },
+//         },
+//     }
+
+
+// console.log(objAmazon.name.callName(enterData,enterData2))
+
+let eCommerceData = {
+    name: "Himanshu Dhingra",
+    myntra_Id: 22344343,
+
+    address: [
+        {address1: "Bangalore"},
+        {address2: "Chandigarh"}
+    ],
+    orders: [
+        {
+            orderId1: "9735765327",
+            orderName: "Thing1", 
+//           orderData : function(){
+//             return this.orderId1 + this.orderName
+//  },
+        },
+        {
+            orderId2: "6325652843",
+            orderName: "Thing2"
+        }
+    ],
+    wishlist: [
+        {
+            id1: "632565"
+        }
+    ]
+}
+console.log(eCommerceData?.orders[0]?.orderName);
+
+
+// let keyUsername = "username"
+// let keyPassword = "Password"
+
+// let username = prompt("Enter Username: ")
+// let password = prompt("Enter password: ")
+
+// let obj = {
+//     [username]: username,
+//     [password]: password
+// }
+// console.log(obj);
+
