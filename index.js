@@ -497,34 +497,34 @@
 
 // console.log(objAmazon.name.callName(enterData,enterData2))
 
-let eCommerceData = {
-    name: "Himanshu Dhingra",
-    myntra_Id: 22344343,
+// let eCommerceData = {
+//     name: "Himanshu Dhingra",
+//     myntra_Id: 22344343,
 
-    address: [
-        {address1: "Bangalore"},
-        {address2: "Chandigarh"}
-    ],
-    orders: [
-        {
-            orderId1: "9735765327",
-            orderName: "Thing1", 
-//           orderData : function(){
-//             return this.orderId1 + this.orderName
-//  },
-        },
-        {
-            orderId2: "6325652843",
-            orderName: "Thing2"
-        }
-    ],
-    wishlist: [
-        {
-            id1: "632565"
-        }
-    ]
-}
-console.log(eCommerceData?.orders[0]?.orderName);
+//     address: [
+//         {address1: "Bangalore"},
+//         {address2: "Chandigarh"}
+//     ],
+//     orders: [
+//         {
+//             orderId1: "9735765327",
+//             orderName: "Thing1", 
+// //           orderData : function(){
+// //             return this.orderId1 + this.orderName
+// //  },
+//         },
+//         {
+//             orderId2: "6325652843",
+//             orderName: "Thing2"
+//         }
+//     ],
+//     wishlist: [
+//         {
+//             id1: "632565"
+//         }
+//     ]
+// }
+// console.log(eCommerceData?.orders[0]?.orderName);
 
 
 // let keyUsername = "username"
@@ -539,3 +539,45 @@ console.log(eCommerceData?.orders[0]?.orderName);
 // }
 // console.log(obj);
 
+// let obj = {
+//     name: "Himanshu",
+//     age: 21,
+// }
+
+// Object.defineProperty(obj, "name",{
+//     writable: false,
+//     configurable: false,
+//     enumerable: true,
+    
+
+// });
+
+// // delete obj.name
+// // obj.name = "Dhingra"
+// // console.log(obj);
+
+// for(let i in obj){
+//     console.log(i);
+// }
+// console.log(obj);
+
+// var element = document.getElementById("paragraph1")
+// console.log(element);
+
+// var element = document.getElementById("paragraph2")
+// console.log(element);
+
+// var element = document.getElementById("heading")
+// console.log(element);
+
+// var element4 = document.createElement("h4")
+// element4.innerText = "Blah Clue"
+// document.body.appendChild(element4)
+
+var divElement= document.createElement("div")
+divElement.innerText = "Blah Clue"
+document.body.appendChild(divElement)
+var element= document.createElement("p")
+
+divElement.appendChild(element)
+element.innertext = "clue blah";
